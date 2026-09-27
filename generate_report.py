@@ -373,6 +373,7 @@ doc.add_paragraph(
 
 
 # --- Bonus ---
+doc.add_page_break()
 doc.add_heading('5.5 Bonus — 95% Confidence Intervals for Survival Rate', level=2)
 doc.add_paragraph(
     'To illustrate uncertainty around each group\'s survival estimate, Wilson 95% '
@@ -401,7 +402,7 @@ doc.add_paragraph(
 )
 
 doc.add_page_break()
-
+ 
 
 # ---------- 6. Discussion ----------
 doc.add_heading('6. Discussion', level=1)
